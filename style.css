@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing:inherit;
+}
+body{
+    background-image: url(https://a-static.besthdwallpaper.com/krasivyy-fon-gory-oboi-2560x1600-10556_7.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    color:rgb(230, 221, 223);
+    scroll-behavior: smooth;
+}
+html{  scroll-behavior: smooth;}
+.one{
+    display:flex;
+      justify-content: center;
+    font-size:150px;
+    color:rgb(230, 221, 223);
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+}
+.one:hover{
+    color:blue;
+    transition: all 1s;
+}
+.animate__animated.animate__backInRight {
+    --animate-duration: 3s;
+  }
+  .animate__animated.animate__bounceInUp {
+    --animate-duration: 3s;
+  }
+  .two:hover{
+    color:green;
+    transition: all 1s;
+  }
+  .two{
+    cursor: pointer;
+    font-size:80px;
+    color:pink;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(230, 221, 223);
+    display:flex;
+      justify-content: center;
+  }
+  h1{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      display:flex;
+      justify-content: center;
+      border:3px solid #fff;
+      color:rgb(160, 156, 157);
+  }
+ 
+  .arrow{
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      margin-bottom: 400px;
+        
+  }
+  a{
+      display:block;
+      margin-top: 50px;
+      text-align: center;
+      margin-bottom: 100px;
+  }
+  .section{
+      padding-top: 200px;
+  }
+  .karina{
+      width: 400px;
+     
+      border:5px solid #fff;
+      
+  }
